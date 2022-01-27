@@ -1,0 +1,48 @@
+{
+  "name": "nextjs-ts-husky-eslint-prettier-twl-starter",
+  "author": "bonusrk",
+  "license": "MIT",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "type-check": "tsc"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "tailwindcss": "^3.0.17"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^11.2.5",
+    "@types/jest": "^26.0.20",
+    "@types/node": "^12.12.21",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
+    "@typescript-eslint/eslint-plugin": "^4.14.2",
+    "@typescript-eslint/parser": "^4.14.2",
+    "autoprefixer": "^10.2.6",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-config-airbnb-typescript": "^16.1.0",
+    "eslint-config-next": "^12.0.8",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jest": "^25.7.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "husky": "4.3.8",
+    "jest": "^27.4.7",
+    "jest-watch-typeahead": "^1.0.0",
+    "lint-staged": "^12.1.7",
+    "postcss": "^8.4.5",
+    "prettier": "^2.5.1",
+    "typescript": "4.5.5"
+  }
+}
